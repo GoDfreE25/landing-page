@@ -1,0 +1,25 @@
+.icon {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--menu {
+    background-image: url(../../../public/images/menu.svg);
+
+    &:hover {
+      background-image: url(../../../public/images/menu-hover.svg);
+    }
+  }
+
+  &--phone {
+    background-image: url(../../../public/images/phone.svg);
+  }
+
+  &--close {
+    background-image: url(../../../public/images/close.svg);
+  }
+}

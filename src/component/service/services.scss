@@ -1,0 +1,15 @@
+@import '../../styles/mixins';
+
+.services {
+  &__item {
+    margin-bottom: 10px;
+
+    @include onTablet {
+      margin-bottom: 20px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 0;
+    }
+  }
+}

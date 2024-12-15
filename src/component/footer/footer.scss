@@ -1,0 +1,77 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.footer {
+  &__widget {
+    padding: 50px 0 70px 0;
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+      @include onTablet {
+        margin-bottom: 0;
+      }
+
+      @include onDesktop {
+        margin-bottom: 0;
+      }
+    }
+    &-icon {
+      margin-bottom: 30px;
+      &.MuiSvgIcon-root {
+        color: $main-orange;
+        width: 65px;
+        height: 65px;
+      }
+    }
+    &-title {
+      color: $main-black;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+    &-subtitle {
+      text-align: center;
+      color: $main-gray;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  &__bar {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    @include onTablet {
+      flex-direction: row;
+    }
+
+    @include onDesktop {
+      flex-direction: row;
+    }
+    &-container {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+    &-title {
+      color: $main-gray;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      text-transform: capitalize;
+    }
+    &-icon {
+      &:hover {
+        &.MuiSvgIcon-root {
+          color: $main-orange;
+        }
+      }
+    }
+  }
+}

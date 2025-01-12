@@ -17,9 +17,7 @@ function Footer() {
                 <HomeOutlinedIcon className="footer__widget-icon" />
                 <h4 className="footer__widget-title">Address</h4>
                 <h4 className="footer__widget-subtitle">
-                  220 Petersham town, Wardell
-                  <br />
-                  street, Australia PA 6550.
+                  We cover: PA, NJ, DE
                 </h4>
               </div>
             </div>
@@ -28,9 +26,7 @@ function Footer() {
                 <PhoneAndroidOutlinedIcon className="footer__widget-icon" />
                 <h4 className="footer__widget-title">Phone</h4>
                 <h4 className="footer__widget-subtitle">
-                  Phone: (04) 491 570 110
-                  <br />
-                  Fax: +04 642 021 332
+                  Phone: +1 267 6162 999
                 </h4>
               </div>
             </div>
@@ -39,22 +35,10 @@ function Footer() {
                 <EmailOutlinedIcon className="footer__widget-icon" />
                 <h4 className="footer__widget-title">Email</h4>
                 <h4 className="footer__widget-subtitle">
-                  support@zytheme.com
-                  <br />
-                  Twitter: @zytheme
+                  rkstonerepair@gmail.com
                 </h4>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="footer__bar">
-          <h4 className="footer__bar-title">
-            © Zytheme 2016, All Rights Reserved.
-          </h4>
-          <div className="footer__bar-container">
-            <FacebookOutlinedIcon className="footer__bar-icon" />
-            <TwitterIcon className="footer__bar-icon" />
-            <InstagramIcon className="footer__bar-icon" />
           </div>
         </div>
       </div>

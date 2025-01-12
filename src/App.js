@@ -44,7 +44,7 @@ function App() {
           <div className="header__content">
             <div ref={headerRef} className="top-actions">
               <a href="#" className="logo" rel="noreferrer">
-                <img className="logo__image" src="images/logo.png" alt="Bose" />
+                <img className="logo__image" src="images/logo.webp" alt="Bose" />
               </a>
               <a
                 onClick={toggleMenu}
@@ -53,9 +53,9 @@ function App() {
               ></a>
             </div>
             <div className="header__title">
-              <h1 className="header__title-text">We’re Building Your Future</h1>
+              <h1 className="header__title-text">Your reliable partner in stone care</h1>
               <h4 className="header__title-subtitle">
-                Take a step towards the future of construction with Cobuild
+                Fast master arrival. Free consultation.
               </h4>
             </div>
           </div>
@@ -67,7 +67,7 @@ function App() {
           <div className="menu__content">
             <div className="menu__top top-actions top-actions--in-burgermenu">
               <a href="#" className="logo" aria-label="logo">
-                <img className="logo__image" src="images/logo.png" alt="Bose" />
+                <img className="logo__image" src="images/logo.webp" alt="Bose" />
               </a>
               <a
                 href="#close"
@@ -96,13 +96,13 @@ function App() {
             </ul>
 
             <a
-              href="tel:+1 234 5555-55-55"
+              href="tel:+1 267 6162 999"
               className="menu__call menu__call--phone"
             >
-              +1 234 5555-55-55"
+              +1 267 6162 999"
             </a>
             <a
-              href="tel:+1 234 5555-55-55"
+              href="tel:+1 267 6162 999"
               className="menu__call menu__call--action"
             >
               call to order

@@ -20,7 +20,7 @@
     &-icon {
       margin-bottom: 30px;
       &.MuiSvgIcon-root {
-        color: $main-orange;
+        color: $main;
         width: 65px;
         height: 65px;
       }
@@ -69,7 +69,7 @@
     &-icon {
       &:hover {
         &.MuiSvgIcon-root {
-          color: $main-orange;
+          color: $main;
         }
       }
     }

@@ -5,7 +5,6 @@
   display: grid;
   align-items: center;
   grid-template-columns: 1fr repeat(2, var(--icon-width));
-  gap: var(--icon-width);
 
   @include onTablet {
     --icon-width: 32px;

@@ -13,9 +13,7 @@ function Service() {
         <div className="page__section-container">
           <h2 className="page__section-title">Our Services</h2>
           <h4 className="page__section-subtitle page__section-subtitle--space">
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris morbi
-            accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio.
+            Counter-top repair and customization services to save money and improve space utilization.
           </h4>
         </div>
         <div className="grid grid--tablet">
@@ -26,8 +24,7 @@ function Service() {
               </div>
               <h3 className="service__name">Sink Replacement</h3>
               <div className="service__description">
-                Cobuild impresses you with fully responsiveness and highly
-                customization.
+                We offer professional services to replace or fix your sink to prevent leaks or renew your countertop
               </div>
             </div>
           </div>
@@ -36,10 +33,9 @@ function Service() {
               <div className="service__card-container">
                 <HardwareIcon className="service__card-icon" />
               </div>
-              <h3 className="service__name">Opening Additional Holes</h3>
+              <h3 className="service__name">Drilling Holes</h3>
               <div className="service__description">
-                Cobuild impresses you with fully responsiveness and highly
-                customization.
+                Additional holes can be drilled in countertop for various installations, faucets, soap dispensers or garbage disposal button.
               </div>
             </div>
           </div>
@@ -48,10 +44,9 @@ function Service() {
               <div className="service__card-container">
                 <ConstructionIcon className="service__card-icon" />
               </div>
-              <h3 className="service__name">Sealer Coating</h3>
+              <h3 className="service__name">Cleaning and Sealing</h3>
               <div className="service__description">
-                Cobuild impresses you with fully responsiveness and highly
-                customization.
+                Removing dirt, debris, and old finishes and applying a sealant to protect from damage, stains, and wear and tear.
               </div>
             </div>
           </div>
@@ -60,10 +55,9 @@ function Service() {
               <div className="service__card-container">
                 <HandymanIcon className="service__card-icon" />
               </div>
-              <h3 className="service__name">Repair Of Cracks</h3>
+              <h3 className="service__name">Seam, cracks and chip repair</h3>
               <div className="service__description">
-                Cobuild impresses you with fully responsiveness and highly
-                customization.
+                Whether it's a small chip, large crack or if you need a new seam we can restore your countertop to its original beauty.
               </div>
             </div>
           </div>
@@ -72,10 +66,9 @@ function Service() {
               <div className="service__card-container">
                 <PlumbingIcon className="service__card-icon" />
               </div>
-              <h3 className="service__name">Repair Of Joints</h3>
+              <h3 className="service__name">Cabinets installation and repair</h3>
               <div className="service__description">
-                Cobuild impresses you with fully responsiveness and highly
-                customization.
+                Our services include installation, repair, and renovation of kitchen cabinets, wardrobes, and other types of furniture.
               </div>
             </div>
           </div>

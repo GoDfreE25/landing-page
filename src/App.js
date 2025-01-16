@@ -4,10 +4,22 @@ import "./styles/main.scss";
 import Service from "./component/service/service";
 import About from "./component/about/about";
 import Footer from "./component/footer/footer";
+import { MenuIcon } from "./icon/menu";
+import { CloseIcon } from "./icon/close";
+import { MenuHoverIcon } from "./icon/menu-hover";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const headerRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,16 +56,28 @@ function App() {
           <div className="header__content">
             <div ref={headerRef} className="top-actions">
               <a href="#" className="logo" rel="noreferrer">
-                <img className="logo__image" src="images/logo.webp" alt="Bose" />
+                <img
+                  className="logo__image"
+                  src="images/logo.webp"
+                  alt="Bose"
+                />
               </a>
-              <a
+              <div
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 onClick={toggleMenu}
-                href="#menu"
-                className="icon icon--menu"
-              ></a>
+              >
+                {isHovered ? (
+                  <MenuHoverIcon fill="white" className="icon" />
+                ) : (
+                  <MenuIcon fill="white" className="icon" />
+                )}
+              </div>
             </div>
             <div className="header__title">
-              <h1 className="header__title-text">Your reliable partner in stone care</h1>
+              <h1 className="header__title-text">
+                Your reliable partner in stone care
+              </h1>
               <h4 className="header__title-subtitle">
                 Fast master arrival. Free consultation.
               </h4>
@@ -62,18 +86,23 @@ function App() {
         </div>
       </header>
 
-      <nav className="page__menu menu section" id="menu">
+      <nav
+        className={`page__menu menu section ${
+          isMenuOpen ? "page__menu-open" : "page__menu-close"
+        }`}
+        id="menu"
+      >
         <div className="container">
           <div className="menu__content">
             <div className="menu__top top-actions top-actions--in-burgermenu">
               <a href="#" className="logo" aria-label="logo">
-                <img className="logo__image" src="images/logo.webp" alt="Bose" />
+                <img
+                  className="logo__image"
+                  src="images/logo.webp"
+                  alt="Bose"
+                />
               </a>
-              <a
-                href="#close"
-                onClick={toggleMenu}
-                className="icon icon--close"
-              ></a>
+              <CloseIcon fill="white" onClick={toggleMenu} className="icon" />
             </div>
             <ul className="menu__list">
               <li className="menu__item">

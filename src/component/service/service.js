@@ -1,10 +1,10 @@
-import HandymanIcon from "@mui/icons-material/Handyman";
-import HardwareIcon from "@mui/icons-material/Hardware";
-import ConstructionIcon from "@mui/icons-material/Construction";
-import PlumbingIcon from "@mui/icons-material/Plumbing";
 import "./service.scss";
 import "./services.scss";
 import { SinkIcon } from "../../icon/sink";
+import { CleaningIcon } from "../../icon/cleaning";
+import { CabinetIcon } from "../../icon/cabinet";
+import { ToolsetIcon } from "../../icon/toolset";
+import { DrillingIcon } from "../../icon/drilling";
 
 function Service() {
   return (
@@ -33,7 +33,7 @@ function Service() {
           <div className="services__item grid__item grid__item--t--4-6 grid__item--d--7-12">
             <div className="service">
               <div className="service__card-container">
-                <HardwareIcon className="service__card-icon" />
+                <DrillingIcon className="service__card-icon" />
               </div>
               <h3 className="service__name">Drilling Holes</h3>
               <div className="service__description">
@@ -46,7 +46,7 @@ function Service() {
           <div className="services__item grid__item grid__item--t--1-6 grid__item--d--1-4">
             <div className="service">
               <div className="service__card-container">
-                <ConstructionIcon className="service__card-icon" />
+                <CleaningIcon className="service__card-icon" />
               </div>
               <h3 className="service__name">Cleaning and Sealing</h3>
               <div className="service__description">
@@ -58,7 +58,7 @@ function Service() {
           <div className="services__item grid__item grid__item--t--1-3 grid__item--d--5-8">
             <div className="service">
               <div className="service__card-container">
-                <HandymanIcon className="service__card-icon" />
+                <ToolsetIcon className="service__card-icon" />
               </div>
               <h3 className="service__name">Seam, cracks and chip repair</h3>
               <div className="service__description">
@@ -70,7 +70,7 @@ function Service() {
           <div className="services__item grid__item grid__item--t--4-6 grid__item--d--9-12">
             <div className="service">
               <div className="service__card-container">
-                <PlumbingIcon className="service__card-icon" />
+                <CabinetIcon className="service__card-icon" />
               </div>
               <h3 className="service__name">
                 Cabinets installation and repair

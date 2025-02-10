@@ -33,7 +33,7 @@
     flex-direction: column;
     box-sizing: border-box;
     gap: 30px;
-    padding: $headerTopPadding 0 94px;
+    padding: 20px 0 94px;
 
     @include onTablet {
       padding: $headerTopPadding 0;

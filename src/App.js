@@ -58,7 +58,7 @@ function App() {
               <a href="#" className="logo" rel="noreferrer">
                 <img
                   className="logo__image"
-                  src="images/logo.webp"
+                  src="images/logo-black.svg"
                   alt="Bose"
                 />
               </a>
@@ -95,10 +95,10 @@ function App() {
         <div className="container">
           <div className="menu__content">
             <div className="menu__top top-actions top-actions--in-burgermenu">
-              <a href="#" className="logo" aria-label="logo">
+              <a href="#" className={`logo ${isMenuOpen ? "logo__with-bg" : ""}`} aria-label="logo">
                 <img
                   className="logo__image"
-                  src="images/logo.webp"
+                  src="images/logo-black.svg"
                   alt="Bose"
                 />
               </a>

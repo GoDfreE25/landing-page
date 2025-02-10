@@ -18,12 +18,9 @@
       }
     }
     &-icon {
+      width: 65px;
+      height: 65px;
       margin-bottom: 30px;
-      &.MuiSvgIcon-root {
-        color: $main;
-        width: 65px;
-        height: 65px;
-      }
     }
     &-title {
       color: $main-black;

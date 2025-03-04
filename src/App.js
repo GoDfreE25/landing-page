@@ -128,7 +128,7 @@ function App() {
               href="tel:+1 267 6162 999"
               className="menu__call menu__call--phone"
             >
-              +1 267 6162 999"
+              +1 267 6162 999
             </a>
             <a
               href="tel:+1 267 6162 999"

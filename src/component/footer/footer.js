@@ -30,7 +30,7 @@ function Footer() {
                 <MailIcon className="footer__widget-icon" />
                 <h4 className="footer__widget-title">Email</h4>
                 <h4 className="footer__widget-subtitle">
-                  rkstonerepair@gmail.com
+                  stonecare@gmail.com
                 </h4>
               </div>
             </div>
